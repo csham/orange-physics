@@ -15,7 +15,7 @@
         title.setY(screenCenterY);
 
         var self = this;
-        for ( var i = 0; i < 35; i++) {
+        for ( var i = 0; i < 30; i++) {
             var xOffset = (i%4) * 250;
             setTimeout(function() {
                 var orange = self.matter.add.image(screenCenterX, 0, 'orange');
