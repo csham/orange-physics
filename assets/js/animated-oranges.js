@@ -1,7 +1,7 @@
 (function(Phaser) {
     var preload = function() {
-        this.load.image('orange', './_assets/img/orange.png');
-        this.load.image('title', './_assets/img/title-content.jpg');
+        this.load.image('orange', './assets/img/orange.png');
+        this.load.image('title', './assets/img/title-content.jpg');
     };
 
     var create = function() {
